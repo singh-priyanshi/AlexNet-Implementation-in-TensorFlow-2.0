@@ -7,6 +7,8 @@ This project demonstrates the implementation of the **AlexNet** architecture usi
 In this project, we implement the AlexNet model, which was originally designed to perform image classification on the ImageNet dataset. While we use a subset of the ImageNet dataset for demonstration purposes, this notebook focuses on understanding and learning the AlexNet architecture and how to implement it in TensorFlow.
 
 AlexNet was proposed by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton and achieved state-of-the-art performance in the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2012.
+<img width="733" alt="image" src="https://github.com/user-attachments/assets/92c84645-861d-4347-bdcb-f043f37d4089">
+
 
 ## Features of the Project
 
@@ -47,6 +49,7 @@ The fully connected layers form the classifier part of AlexNet. They output prob
 For this implementation, we used a small subset of the **ImageNet** dataset. AlexNet was originally designed to classify 1000 different object categories. The notebook demonstrates the model's performance on a simplified classification task using two classes: `bike` and `ship`.
 
 ## Results
+<img width="613" alt="image" src="https://github.com/user-attachments/assets/34c1b28b-6d8a-435c-a25b-e422b8efa70d">
 
 While the model achieves reasonable accuracy on this smaller subset, better results would require training on the full ImageNet dataset with a larger number of epochs.
 
